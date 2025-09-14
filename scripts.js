@@ -13,6 +13,7 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
 
 // Profile picture URLs
 const profilePictures = [
+    'img/profile3.jpg',
     'img/profile2.jpeg',
     'img/profile.png',
 ];
