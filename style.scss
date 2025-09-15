@@ -283,12 +283,26 @@ section {
 }
 
 #tech-stack {
-    .tech-icons {
-        svg {
-            width: 45px;
-            margin: 10px 10px 10px 0;
+    .tech-stack-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .tech-stack-block {
+            display: block;
+            margin-right: 90px;
+            margin-top: 25px;
+
+            .tech-icons {
+                svg {
+                    width: 45px;
+                    margin: 10px 10px 10px 0;
+                }
+            }
         }
     }
+    
 }
 
 #experiences {

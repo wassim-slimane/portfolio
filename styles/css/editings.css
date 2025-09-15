@@ -241,7 +241,18 @@ section p {
   border-radius: 100%;
 }
 
-#tech-stack .tech-icons svg {
+#tech-stack .tech-stack-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#tech-stack .tech-stack-wrapper .tech-stack-block {
+  display: block;
+  margin-right: 90px;
+  margin-top: 25px;
+}
+#tech-stack .tech-stack-wrapper .tech-stack-block .tech-icons svg {
   width: 45px;
   margin: 10px 10px 10px 0;
 }
